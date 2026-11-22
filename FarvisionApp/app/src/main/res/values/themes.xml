@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FarvisionApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#0A1929</item>
+        <item name="colorPrimaryVariant">#0A1929</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:statusBarColor">#0A1929</item>
+        <item name="android:navigationBarColor">#0A1929</item>
+        <item name="android:windowBackground">#0A1929</item>
+    </style>
+
+    <style name="Theme.FarvisionApp.NoActionBar" parent="Theme.FarvisionApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">#0A1929</item>
+        <item name="android:navigationBarColor">#0A1929</item>
+    </style>
+</resources>
